@@ -1,7 +1,8 @@
 .main {
     display:grid;
-    grid-template-rows:1vw 30vw 30vw; 
-    background-color:azure;
+    grid-template-columns:;
+    grid-template-rows:;
+    background-color:cyan;
 }
 
 #header {
@@ -12,6 +13,6 @@
     justify-self: center;
 }
 
-#footer {
+#projectsContainer {
     justify-self: center;
 }
