@@ -1,20 +1,17 @@
-#homePage {
-    display: grid
-  }
-  
-  #projects {
-    grid-template-columns: 100px 50px 100px;
-    grid-template-rows: 80px auto 80px; 
-    column-gap: 10px;
-    row-gap: 15px;
-    background-color: coral;
-  }
-  
-  .title {
-    grid-column-start: 2;
-    grid-column-end: five;
-    grid-row-start: row1-start;
-    grid-row-end: 3;
-    background-color: red;
-  }
-  
+.main {
+    display:grid;
+    grid-template-rows:1vw 30vw 30vw; 
+    background-color:azure;
+}
+
+#header {
+    justify-self: center;
+}
+
+#mainContent {
+    justify-self: center;
+}
+
+#footer {
+    justify-self: center;
+}
