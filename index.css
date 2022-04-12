@@ -1,8 +1,7 @@
 .main {
     display:grid;
-    grid-template-columns:;
-    grid-template-rows:;
     background-color:cyan;
+    height:100%;
 }
 
 #header {
