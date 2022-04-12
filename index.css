@@ -1,11 +1,30 @@
+body{
+    margin: 0;
+}
+
 .main {
     display:grid;
     background-color:cyan;
     height:100%;
+    width: 100%;
 }
 
 #header {
+    background-color: black;
+    height: 100%;
+    width: 100%;
     justify-self: center;
+}
+
+#navBar {
+    background-color: red;
+    height: 10vw;
+    width: 10vw;
+}
+
+#header #navBar a {
+    color:white;
+    text-decoration: none;
 }
 
 #mainContent {
